@@ -1,10 +1,7 @@
 package main
 
-import (
-	"fmt"
-	"github.com/Dougxian/stringutil"
-)
+import "github.com/astaxie/beego/server/web"
 
-func main() {
-fmt.Printf(stringutil.Reverse("!oG ,olleH"))
+func main(){
+    web.Run()
 }
